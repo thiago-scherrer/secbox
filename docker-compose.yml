@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  secbox:
+    build:
+      context: .
+    ports:
+      - "8080:80"
+      - "4343:43"
