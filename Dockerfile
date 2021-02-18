@@ -20,7 +20,7 @@ RUN apt update \
     sslscan \
     wordlists \
     metasploit-framework \
-    python-pip \
+    python3-pip \
     wpscan \
     nikto \ 
     golismero \
