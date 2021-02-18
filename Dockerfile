@@ -22,8 +22,7 @@ RUN apt update \
     metasploit-framework \
     python3-pip \
     wpscan \
-    nikto \ 
-    golismero \
+    nikto \
     tor
 
 RUN  pip install pwntools
